@@ -1,1 +1,0 @@
-GUI toolkit for embedding a Chromium widget in desktop applications

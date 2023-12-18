@@ -29,11 +29,6 @@ classifiers = [
 repository = "https://github.com/search5/cefspark"
 # packages = [{ include = "poetry_cython_example" }]
 include = [{ path = "cefspark/**/*.so", format = "wheel" }]
-#script = "tools/build.py"
-
-[tool.poetry.build]
-generate-setup-file = false
-script = "tools/build.py"
 
 
 [tool.poetry.dependencies]
@@ -43,5 +38,5 @@ sphinx = "^7.2.6"
 
 
 [build-system]
-requires = ["poetry-core", "setuptools", "Cython", "packaging", "numpy", "setuptools-cpp"]
+requires = ["poetry-core", "setuptools", "Cython"]
 build-backend = "poetry.core.masonry.api"

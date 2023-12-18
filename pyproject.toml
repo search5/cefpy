@@ -39,6 +39,7 @@ script = "tools/build.py"
 [tool.poetry.dependencies]
 python = "^3.9"
 numpy = "^1.26.2"
+sphinx = "^7.2.6"
 
 
 [build-system]

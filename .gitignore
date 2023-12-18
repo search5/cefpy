@@ -132,3 +132,4 @@ cefspark_build
 cef_binary*
 external_bin
 clang-format
+clang-format.exe

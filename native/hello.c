@@ -12,7 +12,7 @@
         ],
         "include_dirs": [
             "native",
-            "/tmp/tmpfowcl2z1/.venv/lib/python3.11/site-packages/numpy/core/include",
+            "/private/var/folders/4y/gf7fh4_17ys9jlmb6_6nbpz00000gn/T/tmpv5mv7d9x/.venv/lib/python3.11/site-packages/numpy/core/include",
             "cmake_build",
             "."
         ],

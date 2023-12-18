@@ -28,7 +28,7 @@ libraries = ["hello"]
 
 def build() -> None:
     cmake_modules = [
-        CMakeExtension("cmake_build", sourcedir="src")]
+        CMakeExtension("libhello", sourcedir="src")]
 
     distribution = Distribution({"name": "extended", "ext_modules": cmake_modules})
     # distribution.package_dir = {"extended": "extended"}

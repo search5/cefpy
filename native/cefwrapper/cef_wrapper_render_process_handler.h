@@ -34,3 +34,4 @@ public:
   IMPLEMENT_REFCOUNTING(SimpleRenderProcessHandler);
 };
 #endif //CEF_WRAPPER_RENDER_PROCESS_HANDLER_H_
+

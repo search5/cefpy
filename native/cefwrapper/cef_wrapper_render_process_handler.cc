@@ -67,7 +67,7 @@ void SimpleRenderProcessHandler::OnContextCreated(
         // Retrieve the context's window object.
         CefRefPtr<CefV8Value> object = context->GetGlobal();
         CefRefPtr<CefV8Handler> handler = new JavascriptBindingsHandler(m_Javascript_Bindings, browser);
-        for (int i = 0; i < m_Javascript_Bindings.size(); ++i)
+        for (size_t i = 0; i < m_Javascript_Bindings.size(); ++i)
         {
             CefRefPtr<CefV8Value> func = CefV8Value::CreateFunction(
               m_Javascript_Bindings[i].functionName, handler);
@@ -81,7 +81,7 @@ void SimpleRenderProcessHandler::OnContextCreated(
       CefRefPtr<CefV8Value> object = context->GetGlobal();
       CefRefPtr<CefV8Handler> handler = new JavascriptPythonBindingsHandler(
           m_Javascript_Python_Bindings, browser);
-      for (int i = 0; i < m_Javascript_Python_Bindings.size(); ++i)
+      for (size_t i = 0; i < m_Javascript_Python_Bindings.size(); ++i)
       {
         CefRefPtr<CefV8Value> func = CefV8Value::CreateFunction(
             m_Javascript_Python_Bindings[i].MessageTopic, handler);

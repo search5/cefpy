@@ -1,12 +1,10 @@
 #ifndef LIBRARY_LIBRARY_H
 #define LIBRARY_LIBRARY_H
 
-#include <Windows.h>
 
 #include "cef_wrapper_app.h"
 #include "cef_wrapper_client_handler.h"
 #include "include/cef_command_line.h"
-#include "include/cef_sandbox_win.h"
 #include "javascript_binding.h"
 
 class CefWrapper {

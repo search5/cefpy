@@ -142,7 +142,14 @@ endif()
 #
 
 add_subdirectory(${CEF_LIBCEF_DLL_WRAPPER_PATH} libcef_dll_wrapper)
-add_subdirectory(native)
+#add_subdirectory(native)
+
+add_subdirectory(native/cefwrapper)
+add_subdirectory(native/cefsubprocess)
+
+#if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/cefwrappertest")
+#  add_subdirectory(src/cefwrappertest)
+#endif()
 
 
 #
